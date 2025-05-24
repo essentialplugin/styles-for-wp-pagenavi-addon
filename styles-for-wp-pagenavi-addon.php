@@ -1,13 +1,15 @@
 <?php
 /**
- * Plugin Name: Styles For WP Pagenavi Addon
- * Plugin URI: https://www.essentialplugin.com/wordpress-plugin/styles-wp-pagenavi-addon/
- * Text Domain: styles-for-wp-pagenavi-addon
- * Domain Path: /languages/
- * Description: Adds a more styling options to Wp-PageNavi WordPress plugin OR  the_posts_pagination(); WordPress navigation function
- * Author: Essential Plugin
- * Version: 1.2.3
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/styles-wp-pagenavi-addon/
+ * Plugin Name:		Styles For WP Pagenavi Addon
+ * Plugin URI:		https://www.essentialplugin.com/wordpress-plugin/styles-wp-pagenavi-addon/
+ * Description:		Adds a more styling options to Wp-PageNavi WordPress plugin OR  the_posts_pagination(); WordPress navigation function
+ * Version:			1.2.4
+ * Author:			Essential Plugin
+ * Author URI:		https://profiles.wordpress.org/essentialplugin/
+ * Text Domain:		styles-for-wp-pagenavi-addon
+ * Domain Path:		/languages/
+ * Tested up to:	6.8.1
+ * Requires PHP:	7.4
  *
  * @package Styles For WP Pagenavi Addon
  * @author Essential Plugin
@@ -17,17 +19,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-if( ! defined('SFWPPA_VERSION') ) {
-    define( 'SFWPPA_VERSION', '1.2.3' ); // Plugin version
+if ( ! defined('SFWPPA_VERSION') ) {
+    define( 'SFWPPA_VERSION', '1.2.4' ); // Plugin version
 }
-if( ! defined( 'SFWPPA_VERSION_DIR' ) ) {
+if ( ! defined( 'SFWPPA_VERSION_DIR' ) ) {
     define( 'SFWPPA_VERSION_DIR', dirname( __FILE__ ) ); // Plugin dir
 }
-if( ! defined( 'SFWPPA_URL' ) ) {
+if ( ! defined( 'SFWPPA_URL' ) ) {
     define( 'SFWPPA_URL', plugin_dir_url( __FILE__ ) ); // Plugin url
 }
-if(!defined( 'SFWPPA_SITE_LINK' ) ) {
-	define('SFWPPA_SITE_LINK','https://www.essentialplugin.com'); // Plugin link
+if (!defined( 'SFWPPA_SITE_LINK' ) ) {
+	define('SFWPPA_SITE_LINK', 'https://essentialplugin.com'); // Plugin link
 }
 
 function sfwppa_load_textdomain() {

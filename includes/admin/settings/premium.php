@@ -61,46 +61,46 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<tr>
 				<th></th>
 				<th>
-					<h2>Free</h2>
+					<h2><?php esc_html_e('Free', 'styles-for-wp-pagenavi-addon'); ?></h2>
 					<p>$0 USD</p>
 				</th>
 				<th>
-					<h2>Premium</h2>
-					<p>Gain access to <strong>Styles for WP Pagenavi Addon</strong> </p>
-					<p class="promo">Our most valuable package!</p>
+					<h2><?php esc_html_e('Premium', 'styles-for-wp-pagenavi-addon'); ?></h2>
+					<p><?php esc_html_e('Gain access to', 'styles-for-wp-pagenavi-addon'); ?> <strong><?php echo sprintf( __('Styles for %s', 'styles-for-wp-pagenavi-addon'), 'WP Pagenavi Addon'); ?></strong> </p>
+					<p class="promo"><?php esc_html_e('Our most valuable package!', 'styles-for-wp-pagenavi-addon'); ?></p>
 				</th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th>Designs <span>Designs that make your website better</span></th>
-				<td>Default and Custom</i></td>
-				<td>Default, Custom, Pre Defined Templates </td>
+				<th><?php esc_html_e('Designs', 'styles-for-wp-pagenavi-addon'); ?> <span><?php esc_html_e('Designs that make your website better', 'styles-for-wp-pagenavi-addon'); ?></span></th>
+				<td><?php esc_html_e('Default and Custom', 'styles-for-wp-pagenavi-addon'); ?></i></td>
+				<td><?php esc_html_e('Default, Custom, Pre Defined Templates', 'styles-for-wp-pagenavi-addon'); ?></td>
 			</tr>
 			<tr>
-				<th>Pagination Alignment   <span>Alignment of pagination </span></th>
+				<th><?php esc_html_e('Pagination Alignment', 'styles-for-wp-pagenavi-addon'); ?>  <span><?php esc_html_e('Alignment of pagination', 'styles-for-wp-pagenavi-addon'); ?></span></th>
 				<td><i class="dashicons dashicons-no-alt"></i></td>
 				<td><i class="dashicons dashicons-yes"></i></td>
 			</tr>
 			
 			
 			<tr>
-				<th>Automatic Update <span>Get automatic  plugin updates </span></th>
-				<td>Lifetime</td>
-				<td>Lifetime</td>
+				<th><?php esc_html_e('Automatic Update', 'styles-for-wp-pagenavi-addon'); ?> <span><?php esc_html_e('Get automatic plugin updates', 'styles-for-wp-pagenavi-addon'); ?></span></th>
+				<td><?php esc_html_e('Lifetime', 'styles-for-wp-pagenavi-addon'); ?></td>
+				<td><?php esc_html_e('Lifetime', 'styles-for-wp-pagenavi-addon'); ?></td>
 			</tr>
 			<tr>
-				<th>Support <span>Get support for plugin</span></th>
-				<td>Limited</td>
-				<td>1 Year</td>
+				<th><?php esc_html_e('Support', 'styles-for-wp-pagenavi-addon'); ?> <span><?php esc_html_e('Get support for plugin', 'styles-for-wp-pagenavi-addon'); ?></span></th>
+				<td><?php esc_html_e('Limited', 'styles-for-wp-pagenavi-addon'); ?></td>
+				<td><?php esc_html_e('1 Year', 'styles-for-wp-pagenavi-addon'); ?></td>
 			</tr>
 		</tbody>
 		<tfoot>
 			<tr>
 				<th></th>
 				<td></td>
-				<td><p>Gain access to <strong>Styles for WP Pagenavi Addon</strong></p>
-				<a href="<?php echo SFWPPA_SITE_LINK; ?>/wordpress-plugin/styles-wp-pagenavi-addon/?utm_source=WP&utm_medium=WP-Pagenavi&utm_campaign=Upgrade-PRO" target="_blank">View Buying Options</a></td>
+				<td><p><?php esc_html_e('Gain access to', 'styles-for-wp-pagenavi-addon'); ?> <strong><?php echo sprintf( __('Styles for %s', 'styles-for-wp-pagenavi-addon'), 'WP Pagenavi Addon'); ?></strong></p>
+				<a href="<?php echo SFWPPA_SITE_LINK; ?>/wordpress-plugin/styles-wp-pagenavi-addon/?utm_source=WP&utm_medium=WP-Pagenavi&utm_campaign=Upgrade-PRO" target="_blank"><?php esc_html_e('View Buying Options', 'styles-for-wp-pagenavi-addon'); ?></a></td>
 			</tr>
 		</tfoot>
 	</table>

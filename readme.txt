@@ -1,9 +1,9 @@
 === Styles For WP Pagenavi Addon - Better design for post pagination ===
-Contributors: essentialplugin
+Contributors: essentialplugin, aminshoukat
 Tags: post navigation, navigation, pagination, pagenavi style, wp pagenavi styling   
 Requires at least: 4.0
 Tested up to: 6.8.1
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ To Use this plugin you must have [Wp Pagenavi](https://wordpress.org/plugins/wp-
 
 
 == Changelog ==
+
+= 1.2.4 (24, May 2025) =
+* [*] Fixed translation stings.
 
 = 1.2.3 (15, May 2025) =
 * [*] Check compatibility with WordPress version 6.8.1
