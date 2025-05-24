@@ -91,11 +91,11 @@ function sfwppa_get_option( $key = '', $default = false ) {
  */
 function sfwppa_menu_popup_layout() {
 	$menu_arr = array(
-					'style-1'		=> __('Style 1', 'Styles For WP Pagenavi Addon'),
-					'style-2'		=> __('Style 2', 'Styles For WP Pagenavi Addon'),
-					'style-3'		=> __('Style 3', 'Styles For WP Pagenavi Addon'),
-					'style-4'		=> __('Style 4', 'Styles For WP Pagenavi Addon'),
-					'style-5'		=> __('Style 5', 'Styles For WP Pagenavi Addon'),
+					'style-1'		=> __('Style 1', 'styles-for-wp-pagenavi-addon'),
+					'style-2'		=> __('Style 2', 'styles-for-wp-pagenavi-addon'),
+					'style-3'		=> __('Style 3', 'styles-for-wp-pagenavi-addon'),
+					'style-4'		=> __('Style 4', 'styles-for-wp-pagenavi-addon'),
+					'style-5'		=> __('Style 5', 'styles-for-wp-pagenavi-addon'),
 	);
 	return apply_filters('sfwppa_menu_popup_layout', $menu_arr );
 }
